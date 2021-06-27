@@ -15,6 +15,9 @@
 		D87DC3EB268717B5006148AE /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D87DC3E9268717B5006148AE /* LaunchScreen.storyboard */; };
 		D87DC3F6268717B5006148AE /* EmociaTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = D87DC3F5268717B5006148AE /* EmociaTests.swift */; };
 		D87DC401268717B5006148AE /* EmociaUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = D87DC400268717B5006148AE /* EmociaUITests.swift */; };
+		D87DC40F26871923006148AE /* CNNEmotions.mlmodel in Sources */ = {isa = PBXBuildFile; fileRef = D87DC40E26871923006148AE /* CNNEmotions.mlmodel */; };
+		D87DC44F2687B32A006148AE /* harshsikka_big.mlmodel in Sources */ = {isa = PBXBuildFile; fileRef = D87DC44E2687B32A006148AE /* harshsikka_big.mlmodel */; };
+		D87DC4512687C7B3006148AE /* art.scnassets in Resources */ = {isa = PBXBuildFile; fileRef = D87DC4502687C7B3006148AE /* art.scnassets */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -49,6 +52,9 @@
 		D87DC3FC268717B5006148AE /* EmociaUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = EmociaUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		D87DC400268717B5006148AE /* EmociaUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EmociaUITests.swift; sourceTree = "<group>"; };
 		D87DC402268717B5006148AE /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		D87DC40E26871923006148AE /* CNNEmotions.mlmodel */ = {isa = PBXFileReference; lastKnownFileType = file.mlmodel; name = CNNEmotions.mlmodel; path = ../../../Downloads/CNNEmotions.mlmodel; sourceTree = "<group>"; };
+		D87DC44E2687B32A006148AE /* harshsikka_big.mlmodel */ = {isa = PBXFileReference; lastKnownFileType = file.mlmodel; name = harshsikka_big.mlmodel; path = ../../../Downloads/harshsikka_big.mlmodel; sourceTree = "<group>"; };
+		D87DC4502687C7B3006148AE /* art.scnassets */ = {isa = PBXFileReference; lastKnownFileType = wrapper.scnassets; path = art.scnassets; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -101,10 +107,13 @@
 			children = (
 				D87DC3DE268717B4006148AE /* AppDelegate.swift */,
 				D87DC3E0268717B4006148AE /* SceneDelegate.swift */,
-				D87DC3E2268717B4006148AE /* ViewController.swift */,
+				D87DC4502687C7B3006148AE /* art.scnassets */,
 				D87DC3E4268717B4006148AE /* Main.storyboard */,
+				D87DC3E2268717B4006148AE /* ViewController.swift */,
 				D87DC3E7268717B5006148AE /* Assets.xcassets */,
+				D87DC44E2687B32A006148AE /* harshsikka_big.mlmodel */,
 				D87DC3E9268717B5006148AE /* LaunchScreen.storyboard */,
+				D87DC40E26871923006148AE /* CNNEmotions.mlmodel */,
 				D87DC3EC268717B5006148AE /* Info.plist */,
 			);
 			path = Emocia;
@@ -231,6 +240,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				D87DC4512687C7B3006148AE /* art.scnassets in Resources */,
 				D87DC3EB268717B5006148AE /* LaunchScreen.storyboard in Resources */,
 				D87DC3E8268717B5006148AE /* Assets.xcassets in Resources */,
 				D87DC3E6268717B4006148AE /* Main.storyboard in Resources */,
@@ -258,6 +268,8 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				D87DC40F26871923006148AE /* CNNEmotions.mlmodel in Sources */,
+				D87DC44F2687B32A006148AE /* harshsikka_big.mlmodel in Sources */,
 				D87DC3E3268717B4006148AE /* ViewController.swift in Sources */,
 				D87DC3DF268717B4006148AE /* AppDelegate.swift in Sources */,
 				D87DC3E1268717B4006148AE /* SceneDelegate.swift in Sources */,
